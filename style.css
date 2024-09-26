@@ -215,12 +215,39 @@ body {
 /* Footer */
 
 footer {
-    padding: 20px 0;
-    text-align: center;
     background-color: #333;
     color: white;
-    font-size: 0.9rem;
+    font-size: 17px;
+    padding: 20px 0;
+    display:flex;
+    justify-content: center;
 }
+
+
+.social{
+   cursor:pointer;
+    width:120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-whatsapp {
+    color: #25D366; /* Verde de WhatsApp */
+}
+
+.fa-instagram {
+    color: #E4405F; /* Rosa de Instagram */
+}
+
+.fa-tiktok {
+    color: #010101; /* Negro de TikTok */
+}
+
+.fa-pinterest {
+    color: #E60023; /* Rojo de Pinterest */
+}
+
 
 /* Responsive Styles */
 
@@ -273,4 +300,18 @@ footer {
     .text-content p {
         margin-bottom: 1.25rem;
     }
+    footer {
+        
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social{
+        margin-top:10px;
+        width:100%;
+        justify-content: space-evenly;
+    }
+    
+   
+    
 }

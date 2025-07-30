@@ -47,17 +47,21 @@ body {
 /* MAIN HEADER */
 
 .main-header {
-    background: var(--azul-marino);
+    /*background: var(--azul-marino);*/
+    background-image: url(/img/background-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: #fff;
     padding: 3.125rem 0;
     text-align: center;
 }
 .main-header h1 {
-    font-size: 2.5rem;
+    font-size: clamp(2em, 5vw, 3em);
     margin-bottom: 1.25rem;
 }
 .main-header p {
-    font-size: 1.2rem;
+    font-size: calc(1.2vw + .5em);
     margin-bottom: 20px;
 }
 
